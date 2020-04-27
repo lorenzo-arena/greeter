@@ -57,7 +57,7 @@
 #else
             system_background = new Meta.Background (meta_screen);
 #endif
-            var texture_file = GLib.File.new_for_uri ("resource:///io/elementary/desktop/gala/texture.png");
+            var texture_file = GLib.File.new_for_uri ("resource:///io/elementary/greeter/texture.png");
             system_background.set_color (DEFAULT_BACKGROUND_COLOR);
             system_background.set_file (texture_file, GDesktop.BackgroundStyle.WALLPAPER);
         }
